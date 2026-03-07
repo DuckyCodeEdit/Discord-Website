@@ -35,24 +35,4 @@ button{
     color:black;
     font-weight:bold;
 }
-<nav class="navbar">
-  <!-- Left: Logo and Brand Name -->
-  <div class="logo">
-    <span class="icon">H</span>
-    <span class="brand">The Heian Empire</span>
-  </div>
-
-  <!-- Center: Navigation Links -->
-  <ul class="nav-links">
-    <li><a href="#">Game</a></li>
-    <li><a href="#">Server</a></li>
-    <li><a href="#">History</a></li>
-    <li><a href="#">Chat</a></li>
-  </ul>
-
-  <!-- Right: Action Button -->
-  <div class="nav-button">
-    <a href="#" class="btn">Join Discord</a>
-  </div>
-</nav>
 
