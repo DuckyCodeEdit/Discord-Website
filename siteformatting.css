@@ -5,6 +5,15 @@ body{
     color:white;
 }
 
+.introducioncontainer{
+    border-size:5px;
+    border-radius:5%;
+    border-color:gray
+    margin:auto;
+    text-align:left;
+    padding:40px 20px:
+}
+
 .container{
     max-width:1100px;
     margin:auto;
