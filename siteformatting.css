@@ -15,7 +15,7 @@ body{
 }
 
 .navigationbar{
-    background-color: grey;
+    background-color: darkgray;
     border-size:5px;
     border-radius:5%;
     font-weight:bold;
