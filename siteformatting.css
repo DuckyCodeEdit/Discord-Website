@@ -17,8 +17,8 @@ font-size:1vw;
 .navigationtitle{
 font-family: Verdana;
 font-size:1.5vw;
+padding-left: 1vw;
 position:relative;
-left:20px
 }
 
 .container1{
@@ -160,4 +160,7 @@ background-color:#323338;
     border-width: 0.2vw;
     border-radius: 2%;
     border-color: #4a4a50;
+}
+#image-cover:glow{
+    z-index: 1;
 }
