@@ -6,6 +6,7 @@ div {
 background-color:#2c2d31;
 border-color:#2c2d31;
 position:sticky;
+z-index: 1;
 top:0;
 width: 100%;
 border-style:solid;
