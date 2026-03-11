@@ -153,78 +153,30 @@ background-color:#323338;
 }
 
 .experience-content{
-    padding: 0.5vw;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 1vw;   
+    border-bottom-right-radius: 10px; 
     background-color: #28282e;
 }
 .experience-textbox{
-    background-color: #28282e;
-    max-height: 6.5vw;
+    background-color: hsl(240, 7%, 17%);
+    max-height: fit-content;
 }
 
+html{
+    font-size: 16px;
+}
 
 .experience-title{
-    display: flex;
     font-family: Verdana;
-    width: 20%;
     max-width: 100cap;
     min-width: fit-content;
     color: white;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
     text-align: left;
-    font-weight: 600;
-}
-.experience-titleinfo{
-    background-color: #36363b;
-    margin: 0 auto;
-    width: 20%;
-    max-width: 100cap; 
-    font-size: 0.9vw;
-    font-family: sans-serif;
     font-weight: bold;
-    opacity: 60%;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 0.2vw;
-    border-radius: 2%;
-    border-color: #4a4a50;
 }
-.experience-rank{
-    background-color: #36363b;
-    font-size: 0.5vw;
-    width: 20%;
-    max-width: 100cap;
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-weight: bold;
-    opacity: 60%;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 0.2vw;
-    border-radius: 2%;
-    border-color: #4a4a50;
-}
-.experience-link-button{
-    background-color: #36363b;
-    margin: 0 auto;
-    font-size: 0.5vw;
-    font-family: Verdana;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    opacity: 60%;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 0.2vw;
-    border-radius: 2%;
-    border-color: #4a4a50;
-}
+
 #image-cover:glow{
     z-index: 1;
 }
