@@ -315,14 +315,14 @@ html{
 }
 #experience-title{
     font-family: Verdana;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 0px;
     padding-bottom: 10px;
     max-width: 100cap;
     min-width: fit-content;
     color: white;
     text-decoration: none;
-    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-size: clamp(0.65rem, 2vw, 2.5rem);
     font-weight: bold;    
 }
 }
