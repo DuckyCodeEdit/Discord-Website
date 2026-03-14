@@ -80,11 +80,18 @@ html, body {
     flex:1;
 }
 .footer{
+    display: flex;
     grid-area: footer;
+    list-style: none;
     background-color: #1e2020;
-    padding-top: 60px;
     max-width: 100%;
-    min-width: 100%
+}
+.footer-option{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1vw;
+    padding-left: 20px;
 }
 .options-link{
     display: block;
@@ -135,7 +142,6 @@ font-size:1vw;
     height: 100%;
     -webkit-mask-image: linear-gradient(black, transparent);
     mask-image: linear-gradient(black, transparent);
-    min-height: max-content;
     z-index: -1;
     position: absolute;
     filter: grayscale(100%);
@@ -324,5 +330,23 @@ html{
     text-decoration: none;
     font-size: clamp(0.65rem, 2vw, 2.5rem);
     font-weight: bold;    
+}
+#footer{
+    display: flex;
+    grid-area: footer;
+    list-style: none;
+    background-color: #1e2020;
+    max-width: 100%;  
+}
+#footer-option{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    min-height: 15vw;
+    font-size: 3vw;
+    padding-left: 20px;
+
 }
 }
